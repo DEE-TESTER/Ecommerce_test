@@ -7,9 +7,12 @@ describe('E-commerce Automation Test', () => {
       cy.get('input[placeholder="Search For Products"]').first().type('Smartphone');
       //here i found the class locator and click on it
       cy.get('.type-text').click()
+      cy.get('IMG')
+        });
+      
+
       
 
 
 
           })
-})
